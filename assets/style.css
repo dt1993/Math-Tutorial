@@ -1,8 +1,16 @@
 #container {
     width: 1050px;
     border: 1px solid grey;
-    height: 100px;
     margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float: left;
 }
 
 h1 a{
@@ -10,4 +18,35 @@ h1 a{
     font-weight: 100;
     color: #861BBF;
     text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #b7e953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0c;
+    background: white url(images/Webp.net-resizeimage.png) right center no-repeat;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
 }
